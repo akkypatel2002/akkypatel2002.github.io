@@ -5,13 +5,13 @@
 .navbar li{
     padding: 5px;
     margin-left: 2px;
-    font-size: 12px;
+    font-size: 22px;
 }
 .nav-li:hover{
     /* padding-bottom: 10px; */
     background-color: rgba(138, 80, 80, 0.952);
     border-radius: 15px;
-    height: 18px;
+    height: 15px;
 }
 .container::before{
     content: "";
