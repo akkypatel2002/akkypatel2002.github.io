@@ -39,7 +39,7 @@ html{
     top: 0px;
 }
 .navbar li{
-    font-size:15px;
+    font-size:10px;
     transition-duration: 0.2s;
     list-style: none;
     display: inline-block;
