@@ -7,6 +7,12 @@
     margin-left: 2px;
     font-size: 12px;
 }
+.nav-li:hover{
+    /* padding-bottom: 10px; */
+    background-color: rgba(138, 80, 80, 0.952);
+    border-radius: 15px;
+    height: 18px;
+}
 .container::before{
     content: "";
     position: absolute;
