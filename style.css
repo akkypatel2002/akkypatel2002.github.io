@@ -1,0 +1,273 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+#intro::before{
+    content: "";
+    background-color: rgb(0, 0, 0);
+    background: url("img/pexels-valeria-boltneva-1639563.jpg")center center/cover no-repeat;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    height: 100.5%;
+    width: 100%;
+    opacity: 0.89;
+}
+
+.navbar::before{
+    content: "";
+    background-color: rgb(0, 0, 0);
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    /* height: 100.5%;
+    width: 100%; */
+    opacity: 0.5;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+.navbar li{
+    transition-duration: 0.2s;
+    list-style: none;
+    display: inline-block;
+    height: 17px;
+    padding: 5px;
+    margin-top: 7px;
+    margin-left: 19px;
+    text-shadow: 4px 4px 3px black;
+    /* width: 45px; */
+    /* background-color: aqua; */
+}
+.navbar a{
+    color: rgb(221, 221, 221);
+    padding-bottom: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-weight: 3000; */
+    text-decoration: none;
+}
+.navbar ul{
+    /* position: static; */
+    background-color: rgba(0, 0, 0, 0.472);
+    height: 45px;
+    width: 100vw;
+}
+.nav-li:hover{
+    padding-bottom: 10px;
+    background-color: rgba(138, 80, 80, 0.952);
+    border-radius: 15px;
+    height: 18px;
+}
+.Services li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 9px;
+    /* padding: 5px; */
+    list-style: none;
+    height: 22px;
+    margin-right: 10px;
+    display: inline-block;
+}
+.Services ul{
+    text-align: center;
+    border-radius: 15px;
+    height: 135px;
+    width: 170px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.65);
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 45px;
+    left: 80px;
+}
+#Services:hover .Services ul{
+    display: flex;
+}
+.Services li:hover{
+    cursor: pointer;
+    height: 17px;
+    width: 140;
+    background-color: rgba(138, 80, 80, 0.952);
+    border-radius: 13px;
+    padding-bottom: 10px;
+    text-shadow: 3px 3px 5px black;
+}
+#intro h3{
+    font-size: 40px;
+    padding: 20px;
+}
+#intro p{
+    font-size: 16px;
+}
+#intro{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin: auto;
+    height: 470px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    text-shadow: 4px 4px 3px black;
+}
+#head1{
+    margin-top: 100px;
+    text-shadow: 0px 0px 1px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    display: block;
+    font-size: 22px;
+    margin-bottom: 35px;
+    color: white;
+}
+.container::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: url("img/pexels-lukas-952356.jpg") center  center/cover;
+    height: 100%;
+    width: 100%;
+    opacity: 0.92;
+}
+.container{
+    margin-top: 45px;
+}
+.content{
+    height: 100%;
+    width: 100%;
+    margin: 12px;
+    margin-bottom: 70px;
+    display: flex;
+}
+.box{
+    cursor: pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 18px;
+    margin-right: 22px;
+    background-color: rgba(233, 216, 197, 0.842);
+    border: 2px solid black;
+    border-radius: 23px;
+    box-shadow: 2px 2px 10px 2px;
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+.box h3{
+    font-size: 22px;
+}
+.box:hover{
+    transform: scale(1.05);
+}
+img{
+    height: 72px;
+    width: 72px;
+    border-radius: 50px;
+}
+#head3{
+    padding-top: 25px;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0px 0px 1px;
+    font-size: 33px;
+}
+.contect-head::before{
+    content: "";
+    background: url("img/pexels-ray-piedra-1565982.jpg") center center/cover;
+    position: absolute;
+    z-index: -1;
+    height: 500px;
+    width: 100%;
+    opacity: 0.95;
+}
+.contect{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0px 0px 1px;
+    font-size: 18px;
+    color: white;
+    margin-top: 82px;
+    height: 350px;
+    width: 100%;
+    /* margin-bottom: 120px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+label{
+    text-shadow: 2px 2px 1px black;
+}
+input{
+    /* text-align: center; */
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 15px;
+    /* margin: auto; */
+    margin: 12px;
+}
+input[type=text]{
+    text-align: center;
+    height: 20px;
+    width: 200px;
+    margin: auto;
+    margin-left: 13px;
+    margin-bottom: 8px;
+
+}
+input[type=email]{
+    text-align: center;
+    height: 20px;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 8px;
+    margin-left: 50px;
+
+}
+input[type=textarea]{
+    padding: 0px;
+    height: 120px;
+    width: 205px;
+    margin: auto;
+    margin-left: 45px;
+    margin-bottom: 35px;
+}
+input[type=submit]{
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    padding: 5px;
+    margin-left: 150px;
+    box-shadow: 2px 2px 2px 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    width: 85px;
+    border-radius: 15px;
+    height: 35px;
+}
+footer{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    text-shadow: 2px 2px 1px black;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    display: block;
+    width: 100%;
+    height: 45px;
+    padding-top: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    }
