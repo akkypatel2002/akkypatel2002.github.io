@@ -5,7 +5,7 @@
 .navbar li {
     padding: 5px;
     margin-left: 2px;
-    font-size: 22px;
+/*     font-size: 22px; */
 }
 .nav-li:hover{
     /* padding-bottom: 10px; */
