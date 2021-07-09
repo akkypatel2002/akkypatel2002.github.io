@@ -2,10 +2,10 @@
     display: flex;
     flex-direction: column;
 }
-.navbar li{
+.navbar li a{
     padding: 5px;
     margin-left: 2px;
-    font-size: 52px;
+    font-size: 22px;
 }
 .nav-li:hover{
     /* padding-bottom: 10px; */
