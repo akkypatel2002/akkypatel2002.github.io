@@ -7,6 +7,9 @@
     margin-left: 2px;
 
 }
+.Services{
+    display: none;
+}
 .nav-li:hover{
     /* padding-bottom: 10px; */
     background-color: rgba(138, 80, 80, 0.952);
