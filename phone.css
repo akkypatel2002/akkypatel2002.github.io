@@ -43,3 +43,12 @@
     /* margin-left: 10px; */
     /* margin-right:10px; */
 }
+input[type=text]{
+    width: 200px;
+}
+input[type=email]{
+    width: 200px;
+}
+input[type=textarea]{
+    width: 202px;
+}
