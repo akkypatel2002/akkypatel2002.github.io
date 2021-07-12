@@ -190,7 +190,7 @@ img{
     background: url("img/pexels-ray-piedra-1565982.jpg") center center/cover;
     position: absolute;
     z-index: -1;
-    height: 500px;
+    height: 510px;
     width: 100%;
     opacity: 0.95;
 }
